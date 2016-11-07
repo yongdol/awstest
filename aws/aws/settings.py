@@ -25,7 +25,9 @@ SECRET_KEY = 'dm_ecioftwn6++zwnfcn60uou9rl5vl16!6@o#vf@csgq*fs5k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+        '.amazoneaws.com',
+        ]
 
 
 # Application definition
